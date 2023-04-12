@@ -17,7 +17,8 @@ IA368v DD 6th class: Training T5-base for doc2query approach.
 |    | nDCG@10 |
 |----|:---: |
 | Original TREC COVID| 0.5861|
-| 20-topic expansion | 0.6436 |
-| 40-topic expansion | 0.6482 |
+| 20-topic expansion (temp=1.2, top_p=0.8)| 0.6436 |
+| 40-topic expansion (temp=1.2, top_p=0.8)| 0.6482 |
+| 40-topic expansion (temp=1.4, top_p=0.8)| 0.6276 |
 
 Check [here a presentation](https://docs.google.com/presentation/d/1HaYBkPOaF60kIo5wnAP5LSrbMw4Gc2A1JHAurCiH6Z0/edit?usp=share_link) commenting this exercise resolution.
